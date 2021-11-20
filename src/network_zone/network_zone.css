@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.img {
+    height: 256px;
+    width: 256px;
+  }
+
+.tile_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tile_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.map {
+    position: absolute;
+    /* font-size: 16px; */
+}
+
+.layer {
+    position: absolute;
+    /* font-size: 16px; */
+}
+
+.covered_map {
+    position: relative;
+    border: solid;
+    min-height: 775px;
+    min-width: 775px;
+    width: 775px;
+    height: 775px;
+}
+
+.point {
+    position: absolute;
+    /* font-size: 16px; */
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.legend{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.legend-img{
+    height: 20px;
+    width: 20px;
+}
+
+.legend-text{
+    padding-right: 10px;
+}
