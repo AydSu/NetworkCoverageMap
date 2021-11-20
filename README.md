@@ -5,6 +5,11 @@
 В приложении не используется платное API Яндекса. Не используются сторонние библиотеки навигации.
 Для определния местоположения используется специальная функция LatLonXY. Функция позволяет превращать географические координаты в номер тайла Yandex Maps. 
 
+This application allows you to get a network coverage map for MTS, Megafon, Beeline operators.
+The coverage map is superimposed on the Yandex Maps map.
+The application does not use the Yandex paid API. Third-party navigation libraries are not used.
+A special LatLonXY function is used to determine the location. The function allows you to turn geographical coordinates into a Yandex Maps tile number.
+
 ## Available Scripts
 
 In the project directory, you can run:
